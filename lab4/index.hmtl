@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HAIR SALON</title>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="container">
+<header>
+<h1>HAIR SALON</h1>
+</header>
+<nav>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="media.html">Media</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+    </nav>
+    <main>
+    <div id="upper_flex">
+    <section>
+            <h2>Welcome to the Hair Salon!</h2>
+            <p>Looking for quick, conveniet, and affordable hair care? Look no further! Private Hair Studio. 1 client per available time block. Booking available through STYLESEAT.COM Head Stylist and CEO, Ieshia Cabine-McKee presents a full service salon experience in a private intimate professional setting. Styling options include; braids, locks, two-strand twist, extensions, full-service weave, installments, color, faux lox, hair care products, and much more! Put your trust in a licensed beautician. The goal is to have a satisfied client everytime. Please explore this website and we will discuss every option available.</p>
+
+            <img src="" alt="Hair Salon">               
+     </section>
+     <aside>
+            <h3>Schedule An Appointment</h3>
+            <p>Scheduling and prepayment is available at <styleseat.com> STYLESEAT. You can also call: (423)617-9090 or email:royaltyhairdesigns@gmail.com, shop is open, appointment only. 50% Deposit is due at booking, the balance is always due in cash. We are currently following Coronavirus guidelines. Per the CDC, masks are recommended at the salon. It is your choice however.Please refer any questions or concerns to us immediately. Don't hesitant! Get a consultation today!</p>
+<img src="" alt="hair">
+</aside>
+</div>
+
+
+    <div id="lower_flex">
+     <div class="col">
+     <h3>Hair Salon Media</h3>
+     <p>Please follow the Hair Salon Social Media: Facebook, Instagram, and Snapchat. Please like and subscribe on YouTube. You can find us by typing in "RoyaltyHairDesigns". Please take advangtage of our latest promotions. We are currently in the process of establishing a loyalty program. We want to reward our faithful customers with great deals and amazing customer service.</p> 
+    <img src="images" alt="Socials">
+    <a class="button" href="media.html">Learn More...</a>
+    </div>
+    <div class="col">
+    <h3>Hair Salon Gallery</h3>
+    <p>Please take a look at some of the latest styles I have done. All of my work is done with percision and satisfaction is always guaranteed. My clients enjoy care tips and tricks and before and after consultation services. Take a look through the gallery and pick a style you might like! You can also find a photo from the internet and I can recreate that. The sky is the limit! We can go as far as you want to go.</p>
+    <img src="" alt="Hair Salon">
+   <a class="button" href="gallery.html">Learn Nore...</a>
+</div>
+<div class="col">
+     <h3>Hair Salon Blog</h3>
+    <p>Welcome to the Hair Salon Blog. Bringing it to you fresh and new daily! Stay tuned to all the amazing things in store. Each day is a brand new mystery and discovery at the same time! Please stay tapped in. Many exciting things in store. We will go live everyweek, stay posted for details.</p>
+    <img src="" alt="Hair Salon">
+    <a class="button" href="#">Learn More...</a>
+    </div>
+ </div>
+</main>
+<footer>&copy; 2021 Hair Salon</footer>
+</div>
+</bod>
+</html>
