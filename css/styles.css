@@ -16,19 +16,18 @@ img {
 
 #container {
     background-color: gold;
-        margin: 10px;
+        margin: 7px;
 
     }
 
 header {
-background-image: url(images/IMG_1029.JPG);
-background-size: cover;
-padding: 600px 20;
-margin: 60px;
-align-content: center;
-font-size: larger;
-
-
+    background-image: url(IMG_1029.JPG);
+    background-size: cover;
+    padding: 900px 60;
+    margin: 60px;
+    align-content: center;
+    font-size: larger;
+    
 
 }
 header h1 {
