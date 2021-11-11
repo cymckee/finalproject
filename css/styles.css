@@ -2,6 +2,7 @@
 
 body {
     background-color: black;
+    
 }
 img {
     display: block;
@@ -16,7 +17,7 @@ img {
 
 #container {
     background-color: gold;
-        margin: 7px;
+        margin: 10px;
 
     }
 
@@ -57,6 +58,7 @@ nav li a {
     border-radius: 7px;
     box-shadow: white;
     font-family: 'Mochiy Pop One', sans-serif;
+    text-decoration: solid;
 }
 
 nav li a:hover {
