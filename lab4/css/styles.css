@@ -142,7 +142,7 @@ iframe {
 
 /* Tablet Styles */
 
-@media(min-width: 768px) {
+@media(min-width: 768px) {}
     header {
         padding: 125px;
 
@@ -188,7 +188,7 @@ section, aside {
 
 /* Desktop Styles */
 
-@media(min-width: 1024px) {
+@media(min-width: 1024px){}
     #container {
         width: 75%;
         margin: 10px auto;
@@ -227,14 +227,11 @@ section, aside {
 
     table img {
         width: 75%;
-        }
+
+    }
 .gallery {
     display: none;
+    
 
 }
-table {
-    display: block;
 }
-
-
-
