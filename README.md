@@ -4,5 +4,13 @@
 
 <ul>
 
+# # WEBT1320 Project Page # # #
 
-<li><a href="webdemo/" target="_blank">Lab 4</a></li>
+
+
+
+
+
+<li><a href="webdemo/index.html> target="_blank"> Lab 4</a></li>
+<li><a href="webdemo/media.html> target="_blank">Lab 4</a></li>
+<li><a href="webdemo/gallery.html> target="_blank">Lab 4</a></li>
