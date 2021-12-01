@@ -1,0 +1,334 @@
+/* Global Syles */
+
+body {
+    background-image: url('../images/Roses-Backgrounds-scaled.jpg');
+    background-color: red;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    image-orientation: flip;
+    align-content: center;
+      margin: 0;
+    font-size: 1em;
+    
+    }
+    img {
+        max-width: 100%;
+        width: 100px;
+        margin: 10px auto;
+        align-content: center;
+        float: left;
+        border:darkred solid 4px;
+      
+    }
+    
+    /* Mobile Styles */
+    
+    #container {
+        background-color: darkred;
+        margin: 4px;
+        color: lightpink;
+        align-content: center;
+        
+    
+        }
+    
+    header {
+    background-image: url('../images/Roses-Backgrounds-scaled.jpg');
+    background-size: cover;
+    padding: 70px 0;
+    align-content: center;
+    font-size: 2em;
+    
+    
+    }
+    header h1 {
+        
+    align-content: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+    text-shadow: red 2px 2px 2px;
+    color: white;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    nav ul{
+    list-style-type: none;
+    padding: 5%;
+    width: 100%;
+    
+    }
+    
+    nav li a {
+        display: inline-block;
+    background-color: lightpink;
+        color: white;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 10px 0;
+        border-radius: 10px;
+        box-shadow: red;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    nav li a:hover {
+       background-color:red;
+       color:black;
+        text-shadow:white;
+       font-family: 'Ubuntu', sans-serif;
+    
+    }
+    
+    
+    nav, section, aside, .col, footer {
+    background-color:black;
+    color: lightpink;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border:lightpink 4px;
+    text-align: justify;
+    align-content: center;
+    
+    }
+    
+    h1{
+        font-size: 3em;
+        text-align: center;
+        color: white;
+       text-shadow: darkred 2px 2px 2px;
+       text-transform: capitalize;
+    }
+    
+    .column
+    {
+        float: left;
+        padding: 65px;
+        width: 25%;
+        border: lightpink 4px solid;
+        text-decoration-color: lightpink;
+       }
+       *
+       {
+           box-sizing: border-box;
+       }
+    
+    
+    h2, h3 {
+    color: white;
+    text-shadow: darkred 2px 2px 2px ;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    align-content: center;
+    
+    
+    }
+    h4{
+        color:white;
+        font-size: 2em;
+      text-align: center;
+        text-shadow: darkred 2px 2px 2px;
+    
+    }
+    h5{
+    color: white;
+    font-size: 2em;
+    text-shadow: darkred 2px 2px 2px;
+    text-align: justify;
+    }
+    
+    ol {
+    text-align: justify;
+      font-size: 1.75em;
+      align-content: center;
+     text-decoration: darkred;
+    }
+    
+    
+    section img, aside img {
+     width: 800px;
+     margin: 20px;
+     line-height: 10px;
+     padding: auto;
+    
+    
+    }
+    
+    .button {
+    text-align: center;
+    display: flow-root;
+    background-color: red;
+    color: pink;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+    
+    
+    
+    }
+    .button:hover {
+    background-color: palevioletred;
+    color: darkred;
+    text-align: center;
+      
+    }
+    footer {
+    text-align: center;
+    text-overflow: ellipsis;
+    color: red;
+    font-size: 2em;
+    
+    }
+    
+    .single_col {
+        width: 83%;
+    }
+    
+    audio, video {
+        display: block;
+        margin: 20px auto;
+        width: 75%;
+    
+    }
+    iframe {
+        display: block;
+        margin: 30px auto;
+    }
+        .frame-border {
+            border: lightpink 4px solid;
+            border-radius: 4px;
+        }
+    
+    
+    .gallery_img {
+        background-color: ivory;
+        border: lightpink;
+        text-decoration: red;
+        font-size: small;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    /* Tablet Styles */
+    
+    @media(min-width: 768px) {}
+        header {
+            padding: 125px;
+    
+    
+        }
+    header h1 {
+        font-size: 3em;
+        align-content: center;
+    }
+    
+        .header img{ 
+            width: 70px;
+            height: 70px;
+            object-position: center;
+      
+        
+        }
+    
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    nav li {
+    display: inline-block;
+    
+    
+    }
+    
+    nav li a {
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    margin: 0 20px;
+    
+    }
+    #upper_flex {
+        display: flex;
+    
+    }
+    
+    section, aside {
+        width: 75%;
+    
+    }
+    
+    .col img {
+        width: 100%;
+        border-radius: 9px;
+        border: lightpink 9px solid;
+        align-content: center;
+    }
+    .single_col {
+        width: 100%;
+     object-position: center;
+     align-content: center;
+    }
+    
+    /* Desktop Styles */
+    
+    @media(min-width: 1024px){}
+        #container {
+            width: 100%;
+            margin: 20px auto;
+            border: 4px solid;
+            border-radius: 20px;
+            text-align: center;
+            align-content: center;
+          
+    
+        }
+        header {
+            border-radius: 20px 20px 0 0;
+            
+    
+        }
+        nav li a {
+            margin: 0 20px;
+        }
+        #lower_flex {
+            display: flex;
+        }
+    
+        .col {
+            width: 100%;
+    
+        }
+        .col img {
+        width: 100%;
+        }
+    
+        .single_col {
+            width: 100%;
+        }
+    
+        table, tr, td {
+            border: lightpink solid 4px;
+            padding: 10px;
+            margin: 10px;
+        }
+    
+        table img {
+            width: 100%;
+    
+        }
+    .gallery {
+        display: none;
+        
+    
+    }
